@@ -6,7 +6,7 @@ public class InstantiateLights : MonoBehaviour
 {
     public static int numberOfLights = 10;
     public GameObject trafficLightPrefab;
-    GameObject[] trafficLight = new GameObject[numberOfLights];
+    public static GameObject[] trafficLight = new GameObject[numberOfLights];
 
     Color[] colors = new Color[3];
 
